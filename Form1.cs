@@ -173,7 +173,7 @@ namespace CustomizeYourDiary
                         if(items.Checked)
                         {
                             int pageNumb = int.Parse(items.SubItems[3].Text);
-                            string source = @"C:\Users\yjchu\Documents\Projects\CustomizeYourDiary\image\" + SelectImage(items);
+                            string source = SelectImage(items);
                             
                             for (int i = 0; i < pageNumb; i++)
                             {
